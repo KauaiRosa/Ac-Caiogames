@@ -1,6 +1,6 @@
 function Filmes() {
     return ( 
-        <h1> Error 404 </h1>
+        <h1> Filmes </h1>
      );
 }
 
