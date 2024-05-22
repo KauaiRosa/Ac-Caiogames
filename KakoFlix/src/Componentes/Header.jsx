@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 
 function Header() {
     return ( 
-        <header>
+        <header className="flex bg-teal-500 text-black p-4 mb-4 justify-between">
             <span>Olá, visitante</span>
             <h1>Bem-vindo ao KakoFlix </h1>
             <Navbar/>
