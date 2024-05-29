@@ -1,4 +1,4 @@
-import data from '../../artigos.json'
+
 
 function Filmes() {
     console.log(data)
