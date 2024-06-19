@@ -3,23 +3,26 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Home from './Pages/Home.jsx'
 import Filmes from './Pages/Filmes.jsx'
 import Sobre from './Pages/Sobre.jsx'
 import Contato from './Pages/Contato.jsx'
 import PageNotFound from './Pages/PageNotFound.jsx'
-import Home from './Pages/Home.jsx'
+import DetalhesFilmes from './Pages/DetalhesFilmes.jsx'
 
 const router = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/", 
       element: <App/>,
       children: [
         {index: true, element: <Home/>},
         {path: "filmes", element: <Filmes/>},
         {path: "sobre", element: <Sobre/>},
+        {path: "filmes/:id", element: <DetalhesFilmes/>},
         {path: "contato", element: <Contato/>},
         {path: "*", element: <PageNotFound/>}
+
       ]
     }
   ]
