@@ -3,22 +3,22 @@ import React from 'react';
 // Dados fictícios de filmes
 const data = [
     {
-        title: 'Filme 1',
-        image: 'https://via.placeholder.com/300',
+        title: 'Twister',
+        image: 'https://media.fstatic.com/Igg4H80CRsXM1CUXXYpZU1Q7zWk=/322x478/smart/filters:format(webp)/media/movies/covers/2014/11/twister_t1144_1.jpg',
         tags: ['Ação', 'Aventura'],
-        text: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit.', 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.']
+        text: ['"Twister" é um filme de 1996 que segue um grupo de caçadores de tempestades liderados por Jo Harding (Helen Hunt) e Bill (Bill Paxton). Eles enfrentam tornados devastadores enquanto tentam implantar sensores para melhorar a previsão meteorológica. Com efeitos especiais impressionantes, o filme combina ação intensa com drama pessoal, tornando-se um clássico do gênero de desastres naturais.']
     },
     {
-        title: 'Filme 2',
-        image: 'https://via.placeholder.com/300',
+        title: 'Esposa de Mentirinha',
+        image: 'https://m.media-amazon.com/images/S/pv-target-images/b27eaebc29f97831ca43bf4cd401b4871928ee908fbd800cb2f6ab11aab5d7c2.jpg',
         tags: ['Comédia', 'Romance'],
-        text: ['Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.']
+        text: ['"Esposa de Mentirinha" é uma comédia romântica de 2011 estrelada por Adam Sandler e Jennifer Aniston. A trama gira em torno de um cirurgião plástico (Sandler) que convence sua assistente (Aniston) a se passar por sua esposa para ajudá-lo a cobrir uma mentira. O filme é marcado por situações hilárias e um desenvolvimento de relacionamentos inesperado entre os personagens principais.']
     },
     {
-        title: 'Filme 3',
-        image: 'https://via.placeholder.com/300',
+        title: 'O Jardim secreto',
+        image: 'https://br.web.img3.acsta.net/medias/nmedia/18/93/94/02/20287510.jpg',
         tags: ['Drama', 'Fantasia'],
-        text: ['Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.']
+        text: ['"O Jardim Secreto" é um filme de 1993 baseado no romance infantil clássico de Frances Hodgson Burnett. A história segue uma menina britânica órfã chamada Mary Lennox, que é enviada para viver com seu tio em uma mansão sombria. Lá, ela descobre um jardim abandonado que se torna um símbolo de esperança e renovação, trazendo mudanças tanto para ela quanto para sua família. O filme é conhecido por sua atmosfera encantadora, explorando temas de amizade, cura emocional e o poder da natureza.']
     }
 ];
 
